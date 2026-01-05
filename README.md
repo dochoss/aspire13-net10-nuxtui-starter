@@ -12,7 +12,7 @@ A production-ready starter template combining **.NET Aspire** for cloud-native o
 
 - **🚀 .NET Aspire 13.1** - Cloud-native orchestration with built-in service discovery, health checks, and telemetry
 - **⚡ .NET 10** - Latest .NET runtime with minimal APIs and OpenAPI support
-- **🎨 Nuxt 4 + Nuxt UI 4** - Modern Vue 3 frontend with beautiful, accessible components
+- **🎨 Nuxt 4 + Nuxt UI 4** - Modern Vue 3 frontend with beautiful, accessible components, pre-configured with the [Nuxt UI SaaS template](https://github.com/nuxt-ui-templates/saas)
 - **📊 OpenTelemetry** - Distributed tracing, metrics, and logging out of the box
 - **🔄 Service Discovery** - Automatic service-to-service communication
 - **💪 Resilience** - Built-in retry policies and circuit breakers via `Microsoft.Extensions.Http.Resilience`
