@@ -19,6 +19,7 @@ A production-ready starter template combining **.NET Aspire** for cloud-native o
 - **📝 Content Management** - Nuxt Content for documentation, blog, and changelog
 - **🔍 Full-Text Search** - Built-in content search powered by Nuxt Content
 - **🎯 Type Safety** - End-to-end TypeScript with Zod validation
+- **🤖 AI-Assisted Development** - GitHub Copilot [custom instructions](.github/copilot-instructions.md) for consistent code generation
 
 ## 🏗️ Architecture
 
