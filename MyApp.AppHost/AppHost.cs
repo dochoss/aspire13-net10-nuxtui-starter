@@ -3,8 +3,9 @@ var builder = DistributedApplication.CreateBuilder(args);
 var apiService = builder.AddProject<Projects.MyApp_ApiService>("apiservice")
     .WithHttpHealthCheck("/health");
 
-// Add the Nuxt frontend as an npm project
-var frontend = builder.AddNpmApp("frontend", "../MyApp.Web", "dev")
+// Add the Nuxt frontend as a JavaScript app (pnpm)
+var frontend = builder.AddJavaScriptApp("frontend", "../MyApp.Web")
+    .WithPnpm()
     .WithHttpEndpoint(env: "PORT")
     .WithExternalHttpEndpoints()
     .WithReference(apiService)
